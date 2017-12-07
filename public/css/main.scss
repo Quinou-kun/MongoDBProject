@@ -1,0 +1,206 @@
+@import "themes/default/variables";
+
+@import "lib/bootstrap/bootstrap";
+@import "lib/font-awesome/font-awesome";
+
+@import "themes/default/default";
+
+@import "cards.css";
+@import "tmp.css";
+
+// Scaffolding
+// -------------------------
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 60px;
+  margin-bottom: 75px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+
+  p, ul {
+    margin-bottom: 0;
+  }
+}
+
+// Input Fields
+// -------------------------
+
+textarea {
+  resize: vertical;
+}
+
+// Navbar
+// -------------------------
+
+
+.navbar-nav img {
+  width: 30px;
+  height: 30px;
+  margin: -15px 15px -15px;
+}
+
+
+// Alerts
+// -------------------------
+
+.alert {
+  margin-top: 20px;
+}
+
+// Thumbnails
+// -------------------------
+
+.thumbnail {
+  padding: 0;
+  border-radius: 0;
+  box-shadow: 0 0 5px #ccc, inset 0 0 0 #000;
+}
+
+// Font Icons
+// -------------------------
+
+.fa {
+  margin-right: 6px;
+}
+
+// MAP
+#map-canvas {
+   margin: 0;
+   padding: 0;
+   height: 60vh;
+}
+#map-canvas img {
+   max-width: none !important;
+}
+a:hover{
+
+color : darken(orange,10);
+
+}
+
+#testdiv{
+  display : none;
+}
+
+.btn{
+  background-color : orange;
+  border-color : green;
+  color : white;
+}
+
+.btn:hover{
+  text-decoration: none;
+  color : white;
+  background-color : darken(orange, 10);
+}
+
+a {
+  color : orange;
+}
+
+.myad{
+  width : 100%;
+  display : inline;
+}
+
+.ad-info h3,.ad-info h4,p,a{
+  margin : 0 10px 0 10px;
+  padding : 5px
+}
+
+.ad-info-header{
+  margin-top : 4%;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.100);
+
+}
+
+.ad-info-header-price{
+  padding-bottom: 9px;
+  margin: 40px 10px 20px;
+}
+
+.ad-info-owner{
+  padding : 2% 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0.05);;
+}
+
+
+.ad-info-content{
+
+  padding : 2% 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  flex-direction: column;
+  background-color: white;
+}
+
+.ad-info-content-description{
+  padding : 2% 0;
+}
+.ad-info-content-img{
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height : 300px;
+  width : 35%;
+  float: left;
+  text-align: center;
+  margin:1%;
+  line-height: 300px;
+}
+
+.ad-info-content-img img{
+  padding : auto;
+  max-width : 100%;
+  max-height : 100%;
+}
+
+.ad-info-content #map-canvas{
+  margin : 1%;
+  height: 300px;
+  width : 61%;
+  float: right;
+}
+
+.ad-info-footer{
+  padding : 2% 0;
+  background-color: rgba(0,0,0,0.03);
+}
+
+nav {
+  text-align : center;
+}
+
+
+.reserved{
+  color : red;
+}
+.available{
+  color : green;
+}
+
+.collapse-img{
+  width : 100%;
+  height : 250px;
+  text-align : center;
+}
+
+.collapse-img img {
+  max-width : 100%;
+  max-height : 100%;
+}
+
