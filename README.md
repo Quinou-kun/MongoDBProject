@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Wood N' Shoes
 Easy way to rent shoes near you to go to cut trees.
 
@@ -47,3 +48,6 @@ License
 The MIT License (MIT)
 
 Copyright (c) 2017, Wood N' Shoes
+=======
+# MongoDBProject
+>>>>>>> 82eb3ce403bb5741712d77441d28037a3e42a450
